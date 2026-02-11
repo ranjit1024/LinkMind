@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Mona_Sans } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+const monaSans = Mona_Sans({
+  subsets: ['latin'],
+  display: 'swap', // 'swap' ensures the fallback font is used until Mona Sans loads
+  variable: '--font-mona-sans', // Optional: Use a CSS variable for easier styling
 });
 
 const geistMono = Geist_Mono({
@@ -25,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${monaSans.className}  antialiased`}
       >
         {children}
       </body>
