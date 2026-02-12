@@ -1,0 +1,15 @@
+## Product idea
+
+bookmark based learning system
+-- an extension where you can stre you bookmark and one gloable sapce whare you can see all your bookmarks
+-- and when you click on a publishg other person also can study from your book mart
+-- anyone can save book mark and then when 
+
+### feturre
+* Save URL 
+* Auto-fetch title, favicon, description 
+* Manual tags + folders 
+* AI auto-tagging 
+* AI summary (TL;DR)
+* Markdown notes per bookmark 
+* Code snippets support * Page snapshot (screenshot / text extract) * Dead‑link detection
