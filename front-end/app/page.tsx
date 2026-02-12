@@ -15,14 +15,14 @@ export default function Home() {
       <Image src={Logo} height={35} width={35} alt="logo"/>
       <h1 className="font-medium text-xl"><span className="text-2xl">L</span>inkMind</h1>
     </div>
-    <div className=" w-[1px] bg-gray-100"></div>
+    <div className=" w-px bg-gray-100"></div>
     <div id="navbar" className="ml-3 flex justify-between gap-8 items-center" >
       <div className="text-gray-500 font-[450]">Home</div>
       <div className="text-gray-500 font-[450]">Home</div>
       <div className="text-gray-500 font-[450]">Home</div>
     </div>
 
-    <div className=" w-[1px] bg-gray-100 ml-5"></div>
+    <div className=" w-px bg-gray-100 ml-5"></div>
     <button className=" bg-gray-100 text-black px-5 py-2 text-[1.1rem] font-medium hover:cursor-pointer hover:bg-blue-100 hover:text-gray-900">Log In</button>
   </div>
         
